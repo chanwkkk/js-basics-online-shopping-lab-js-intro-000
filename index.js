@@ -31,7 +31,7 @@ function viewCart() {
          var howMuch=getCart()[i].itemPrice;
          array.push(`${getCart()[i].itemName} at $${getCart()[i].itemPrice}`);
         }
-      return `${array.join(",")}, and ${getCart()[getCart().length-1].itemName} at $${getCart()[getCart().length-1].itemPrice}`
+      return `${array.join(", ")}, and ${getCart()[getCart().length-1].itemName} at $${getCart()[getCart().length-1].itemPrice}`
 }
 
 }
